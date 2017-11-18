@@ -29,10 +29,8 @@ require(
   document.body.appendChild(renderer.view);
   //Container del objeto stage
   var stage = new PIXI.Container();
-  //El renderer renderiza el stage
-  renderer.render(stage);
 
-  Setup(PIXI);
+  Setup(PIXI, stage, renderer);
 
 });
 
